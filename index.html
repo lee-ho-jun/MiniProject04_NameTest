@@ -6,20 +6,49 @@
     <title>Mini-Project04[NameTest]</title>
   </head>
   <body>
+    <!--Title-->
     <h1>Name Test</h1>
 
-    <h2>Name 1 :</h2>
-    <h3 id="firstName">None</h3>
-    <p id="firstNum"></p>
+    <!--Input Names-->
+    <form action="#">
+      <!--Name1-->
+      <label for="firstName">이름 :</label>
+      <input type="text" id="firstName" />
 
-    <br />
+      <br />
+      <input type="radio" id="first-Boy" name="unit1" />
+      <label for="first-Boy">남자</label>
 
-    <h2>Name 2 :</h2>
-    <h3 id="secondName">None</h3>
-    <p id="secondNum"></p>
+      <br />
+      <input type="radio" id="first-Girl" name="unit1" />
+      <label for="first-Girl">여자</label>
 
-    <br />
+      <p id="firstNum"></p>
 
+      <br />
+      <br />
+
+      <!--Name2-->
+      <label for="secondName">이름 :</label>
+      <input type="text" id="secondName" />
+
+      <br />
+      <input type="radio" id="second-Boy" name="unit2" />
+      <label for="second-Boy">남자</label>
+
+      <br />
+      <input type="radio" id="second-Girl" name="unit2" />
+      <label for="second-Girl">여자</label>
+
+      <p id="secondNum"></p>
+
+      <br />
+      <br />
+
+      <button type="button" onclick="buttonClick()">Submit</button>
+    </form>
+
+    <!--Result-->
     <h3>Score</h3>
     <!--Not yet implemented-->
 
